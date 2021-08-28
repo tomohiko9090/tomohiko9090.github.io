@@ -19,3 +19,6 @@ https://tomohiko9090.github.io/
 9. クローンしたディレクトリに貼り付け
 10. add してcommitしてmainにpush
 11. github.ioが変更されているか確認
+
+git commit -m “first commit”
+
