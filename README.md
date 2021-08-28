@@ -18,11 +18,13 @@ https://tomohiko9090.github.io/
 8. ダウンロードしてきた中身をコピー
 9. クローンしたディレクトリに貼り付け
 10. add してcommitしてmainにpush
-'''
+
+\```
 git add .
 git commit -m "first commit"
 git push origin main
-'''
+\```
+
 11. github.ioが変更されているか確認
 
 
