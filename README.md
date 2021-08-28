@@ -1,6 +1,10 @@
-# homepage
+# HOMEPAGE
 
-友達に教える際の9つのステップ
+# DEMO
+ホームページリンク
+https://tomohiko9090.github.io/
+
+# STEP
 
 1. gitアカウントを作成
 2. リポジトリを作成
