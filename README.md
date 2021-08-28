@@ -26,6 +26,8 @@ git push origin main
 ```
 
 11. github.ioが変更されているか確認
+12. リモートリポジトリで変更した内容をローカルへ反映させる方法
 
-
-
+```bash
+git pull
+```
