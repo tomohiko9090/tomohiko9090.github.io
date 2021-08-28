@@ -15,6 +15,7 @@ https://tomohiko9090.github.io/
 5. ローカルにsshでクローン
 6. ローカル環境でサーバーを立てられるか確認
 7. https://html5up.net/ から好きなHPの型をダウンロード
-8. git clone したディレクトリにダウンロードしてきたディレクトリの中身をコピー
-9. addしてcommitしてmainにpush
-10. github.ioが変更されているか確認
+8. ダウンロードしてきた中身をコピー
+9. クローンしたディレクトリに貼り付け
+10. add してcommitしてmainにpush
+11. github.ioが変更されているか確認
