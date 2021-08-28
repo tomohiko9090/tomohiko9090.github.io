@@ -7,7 +7,7 @@
 
 https://tomohiko9090.github.io/
 
-# HomePageCreationg STEP
+# HomePage Creationg STEP
 1. githubアカウントを作成
 2. リポジトリを作成
 3. readmeファイル, 簡易htmlファイルを作成
