@@ -19,7 +19,7 @@ https://tomohiko9090.github.io/
 9. クローンしたディレクトリに貼り付け
 10. add してcommitしてmainにpush
 
-\```
+\```bash
 git add .
 git commit -m "first commit"
 git push origin main
