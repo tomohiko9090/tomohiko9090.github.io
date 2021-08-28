@@ -1,7 +1,7 @@
 # HOMEPAGE
 
 # DEMO
-ホームページリンクの↓  
+ホームページのリンク↓  
 https://tomohiko9090.github.io/
 
 # STEP
