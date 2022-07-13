@@ -1,12 +1,12 @@
 body{
     margin: 0;
-    background: url("images/bg.png") repeat;
+    background: url("robot_image/bg.png") repeat;
     font-size: 14px;
     text-align: center;
 }
 
 h1 {
-    background: url("images/title_bg.gif") repeat;
+    background: url("robot_image/title_bg.gif") repeat;
     font-size: 20px;
     color: white;
     margin: 0;
