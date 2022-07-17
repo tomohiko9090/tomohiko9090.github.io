@@ -3908,3 +3908,17 @@ input, select, textarea {
 			}
 
 		}
+
+		body{
+			margin: 40px;
+			/* text-align: center; */
+		}
+		
+		.main{
+			display: flex;
+		 }
+		
+		.contentA,.contentB{
+			width: 50%;
+			height: 200px;
+		}
