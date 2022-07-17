@@ -1,6 +1,5 @@
 // 削除
 function delete_text(e){
-  // let delete_key = document.getElementById(`${key}`)
   localStorage.removeItem(e.target.id)
   load()
 }
