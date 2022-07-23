@@ -1,3 +1,8 @@
+function viewStrLen(){
+  var len = document.getElementById("textarea").value.length;
+  document.getElementById("strLen").innerText = len + "文字";
+}
+
 // 削除
 function delete_text(e){
   localStorage.removeItem(e.target.id)
@@ -13,11 +18,12 @@ function load() {
 
   for(i = 0; i < localStorage.length; i++){
     let key = localStorage.key(i) // 1.i番目のキーを取ってくる
-    data = localStorage.getItem(key) // 2.キーを使って値を取ってくる
+    data = "<font size='5'>" + localStorage.getItem(key) + "</font>"// 2.キーを使って値を取ってくる
+    let checkbox = '<font size="5"><input class="form-check-input" type="checkbox" id="flexCheckDefault"></font>'
 
     //3.削除ボタンの生成 キーが増えたら削除ボタンが生成
-    delete_button = `<input type='button' class='delete_button' id='${key}' value='削除'>`
-    mydata += delete_button + key + "　" + data + "<br>"
+    delete_button = `<input type='button' class='btn btn-light delete_button' id='${key}' value='🗑' style="float: right;">`
+    mydata += checkbox + "　"+ data + delete_button + "<br>" + "<br>" + "　<h8 style='float: right;'>" + key + "</h8>" + "<br>" + "<hr>" + "<br>" 
   }
   log.innerHTML = mydata;
 
@@ -76,6 +82,12 @@ send.addEventListener("click", save);
 let log = document.querySelector("#log");
 load()
 
+
+
+  
+  
+   
+  
 
 // localStorage.setItem('mydata'); //mydataキーからデータ取得して
 // localStorage.setItem('mydata', textarea); //mydataキーでtextareaを登録して
