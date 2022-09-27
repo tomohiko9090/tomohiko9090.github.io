@@ -1,0 +1,25 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "<img width=\"993\" alt=\"スクリーンショット 0003-08-28 午後5 38 54\" src=\"https://user-images.githubusercontent.com/66200485/131211933-6e441799-6ae9-44a6-bdf0-528c5a36571d.png\">",
+  "main": "index.js",
+  "dependencies": {
+    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
+    "hexo-generator-sitemap": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomohiko9090/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomohiko9090/homepage/issues"
+  },
+  "homepage": "https://github.com/tomohiko9090/homepage#readme"
+}
